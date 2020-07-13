@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.06.12" orientation="orthogonal" renderorder="right-down" width="256" height="256" tilewidth="32" tileheight="32" infinite="0" nextlayerid="15" nextobjectid="957">
+ <editorsettings>
+  <export target="t_level_a050_the_farm.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="color_32.tsx"/>
+ <layer id="10" name="x_level" width="256" height="256">
+  <data encoding="base64" compression="zlib">
+   eJzt3c1y2yAUBlBv3GnaRd7/bbuM6xGIy69kzuLMtI4kuMCHiLvo9+Px+K7wLPzsKp5vej1zdV3Qy3tGcl7vOfpz7pk9+hFt472fZ305u6bnPpKqI3ddybOi98CR0rXYa81F7svtBzWflfy89zniqK2afuXGcESfS59dclas3e8i74kR9UbbacnE6Lpqx79mTktqbelbadajZ4DXv7fOw/PgmWd9qz0jlO4trfVEz4/RNRZdX6P2u0gbrXtT9L01ut7SddXSx5n5P3tGat565r+0tsgZIVfnrPXTOo/R8VlRTyT/qfkYMaYz5jC3r7WcWSLvuZL9NfIuOqo79cwe45pb32fr5uzeXH9nrKNPy39rP87OfL3bG13fHd//pXtS689L+l4iVUdkblLXjl5L8p+e95Y1c5X67pL/VP9q1l2P+lraiJwBos+auXZKr/vE/M9qa3R9V8x/ak1H1/+d8t+y343cAyLzGDkHje537/p69PkK9db092weW9dN6b25z2vOxlfJf+k4tOx1o+orue6sz7VrbFZtvcb5TtmfpUf+o8/pOR+98n90ba+xGVnfqLmZQf5pVbvHlL4Te/VjVH0l110x/7XnjF3O/ox19rtMNPvyH69rdv5X1svnmfH78qfmf/R4fEq9XMeK78lK2+mR/9nf/62Yu9X9gBFq8r/qe/8rjhHc2Yp/mwQAqOFsAsxgrwGAe/IOBwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA4E5+AQAAAAAA2/oCbkH+YV/yD/uSf9iX/MO+5B/2Jf+wL/mHfck/7Ev+YV/yD/uSf9jX6Pz/frG6VuB/q/P/Z7BU3aPbzbWdGp8VVq8/1ork+i8AAAAAAAAAAHBbq///UQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADgxz/NSDx6
+  </data>
+ </layer>
+ <objectgroup color="#ff00ff" id="6" name="game_screen" visible="0">
+  <object id="432" x="640" y="3168">
+   <polygon points="0,0 416,0 416,-192 -416,-192 -416,192 416,192 416,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ffaa00" id="14" name="fg"/>
+ <objectgroup color="#ff0000" id="3" name="sensors" tintcolor="#000000">
+  <object id="581" name="exit" x="4544" y="2848" width="32" height="448"/>
+  <object id="949" name="cam_zoomX05" x="4352" y="3168" width="96" height="416"/>
+  <object id="952" name="cam_zoomX1" x="4000" y="3168" width="96" height="416"/>
+  <object id="954" name="cam_pos" x="352" y="3232" width="224" height="192"/>
+  <object id="955" name="cam_pos" x="4256" y="3168" width="288" height="192"/>
+  <object id="956" name="cam_pos" x="3424" y="3232" width="320" height="192"/>
+ </objectgroup>
+ <objectgroup color="#00aaff" id="2" name="mg">
+  <object id="950" name="ground02" x="4000" y="3299.33">
+   <polygon points="0,0 32,-8.66667 96,-17.3333 192,-26 320,-34.6667 480,-43.3333 576,-43.3333 576,60.6667 0,60.6667"/>
+  </object>
+  <object id="589" name="player" x="448" y="3168">
+   <polygon points="0,0 48,0 48,32 -48,32 -48,-32 48,-32 48,0"/>
+  </object>
+  <object id="574" name="ground01" x="0" y="3296" width="4576" height="288"/>
+  <object id="471" name="wall01" x="0" y="2656" width="320" height="928"/>
+  <object id="477" name="ceiling01" x="0" y="2656" width="4576" height="192"/>
+  <object id="575" name="wall01" x="4576" y="2656" width="352" height="928"/>
+ </objectgroup>
+ <objectgroup color="#aaff00" id="4" name="bg">
+  <object id="684" name="tex01" x="544" y="3296">
+   <polygon points="0,0 0,-32 -8,-32 -8,-40 80,-40 80,-32 72,-32 72,0 64,0 64,-32 8,-32 8,0"/>
+  </object>
+  <object id="943" name="tex02" x="672" y="3264" width="768" height="32"/>
+  <object id="944" name="tex02" x="1632" y="3264" width="800" height="32"/>
+  <object id="945" name="tex03" x="2720" y="3264" width="1024" height="32"/>
+ </objectgroup>
+</map>

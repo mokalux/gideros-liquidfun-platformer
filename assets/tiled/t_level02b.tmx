@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="2020.03.18" orientation="orthogonal" renderorder="right-down" width="64" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="11" nextobjectid="364">
+ <editorsettings>
+  <export target="t_level02.lua" format="lua"/>
+ </editorsettings>
+ <objectgroup color="#ff00ff" id="6" name="game_screen" visible="0">
+  <object id="268" x="1024" y="1312">
+   <polygon points="0,0 416,0 416,-224 -416,-224 -416,224 416,224 416,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="sensors">
+  <object id="165" name="dead" x="5.40441" y="780.36" width="2063.01" height="67.6397"/>
+  <object id="281" name="exit" x="2017.69" y="594.351">
+   <polygon points="0,0 14.4942,0 14.4942,16.9099 -19.3256,16.9099 -19.3256,-16.9099 14.4942,-16.9099 14.4942,0"/>
+  </object>
+  <object id="291" name="ladder" x="461.972" y="492.892">
+   <polygon points="0,0 16.9099,0 16.9099,219.829 0,219.829"/>
+  </object>
+  <object id="315" x="89.954" y="678.901">
+   <polygon points="0,0 84.5496,0 84.5496,67.6397 -84.5496,67.6397 -84.5496,0"/>
+  </object>
+  <object id="312" x="800.171" y="611.261">
+   <polygon points="0,0 236.739,0 236.739,67.6397 -236.739,67.6397 -236.739,0"/>
+  </object>
+  <object id="338" x="495.792" y="678.901">
+   <polygon points="0,0 67.6397,0 67.6397,67.6397 -67.6397,67.6397 -67.6397,0"/>
+  </object>
+  <object id="323" x="1087.64" y="543.621">
+   <polygon points="0,0 50.7298,0 50.7298,67.6397 -50.7298,67.6397 -50.7298,0"/>
+  </object>
+  <object id="324" x="1324.38" y="442.162">
+   <polygon points="0,0 50.7298,0 50.7298,67.6397 -50.7298,67.6397 -50.7298,0"/>
+  </object>
+  <object id="325" x="1611.85" y="467.527">
+   <polygon points="0,0 50.7298,0 50.7298,67.6397 -50.7298,67.6397 -50.7298,0"/>
+  </object>
+  <object id="340" x="1780.95" y="501.347">
+   <polygon points="0,0 50.7298,0 50.7298,33.8199 -50.7298,33.8199 -50.7298,0"/>
+  </object>
+  <object id="341" x="1831.68" y="552.076">
+   <polygon points="0,0 101.46,0 101.46,33.8199 -101.46,33.8199 -101.46,0"/>
+  </object>
+  <object id="354" x="478.882" y="467.527">
+   <polygon points="0,0 50.7298,0 50.7298,33.8199 -50.7298,33.8199 -50.7298,0"/>
+  </object>
+  <object id="355" x="470.427" y="577.441">
+   <polygon points="0,0 67.6397,0 67.6397,16.9099 -67.6397,16.9099 -67.6397,0"/>
+  </object>
+  <object id="362" name="bump_yp4" x="212.551" y="695.811">
+   <polygon points="0,0 4.22748,0 4.22748,16.9099 -4.22748,16.9099 -4.22748,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#00aaff" id="2" name="level">
+  <object id="95" name="player" x="64.5892" y="661.991">
+   <polygon points="0,0 25.3649,0 25.3649,19.0237 -25.3649,19.0237 -25.3649,-19.0237 25.3649,-19.0237 25.3649,0"/>
+  </object>
+  <object id="7" x="5.40441" y="273.063" width="2029.19" height="33.8199"/>
+  <object id="8" name="wall_no" x="-62.2353" y="273.063" width="67.6397" height="507.298"/>
+  <object id="11" name="wall_no" x="2034.6" y="273.063" width="67.6397" height="338.199"/>
+  <object id="299" name="ptplatform" x="1730.22" y="509.801" width="101.46" height="16.9099"/>
+  <object id="302" name="mplatform_3_64" x="242.143" y="475.982" width="101.46" height="21.1374"/>
+  <object id="305" name="nme01" x="800.171" y="568.986" width="33.8199" height="33.8199"/>
+  <object id="306" name="npc01" x="859.356" y="568.986" width="33.8199" height="33.8199"/>
+  <object id="318" name="wall_no" x="242.143" y="661.991" width="67.6397" height="50.7298"/>
+  <object id="319" x="250.598" y="661.991" width="50.7298" height="8.45496"/>
+  <object id="339" name="ptplatform" x="1730.22" y="560.531" width="101.46" height="16.9099"/>
+  <object id="343" x="1730.22" y="611.261" width="372.018" height="67.6397"/>
+  <object id="344" x="5.40441" y="712.721">
+   <polygon points="0,0 507.298,0 676.397,-67.6397 980.776,-67.6397 1386.61,-236.739 1657.17,-236.739 1657.17,-219.829 1386.61,-219.829 980.776,-50.7298 676.397,-50.7298 507.298,16.9099 0,16.9099"/>
+  </object>
+  <object id="349" x="571.887" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="350" x="690.256" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="351" x="808.626" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="352" x="926.995" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="353" name="ptplatform" x="1163.73" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="356" name="ptplatform" x="445.063" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="357" x="1045.36" y="475.982" width="67.6397" height="16.9099"/>
+  <object id="358" name="wall_no" x="1594.94" y="492.892" width="67.6397" height="287.469"/>
+ </objectgroup>
+ <objectgroup color="#aaff00" id="4" name="deco">
+  <object id="282" x="3808" y="704" visible="0">
+   <polygon points="0,0 128,-192 256,0"/>
+  </object>
+  <object id="342" name="rock" x="487.337" y="492.892" width="837.041" height="228.284"/>
+  <object id="316" name="ladder" x="453.517" y="492.892" width="33.8199" height="219.829"/>
+  <object id="327" name="flow" x="495.792" y="492.892" width="25.3649" height="219.829"/>
+  <object id="328" name="flow" x="656.437" y="492.892" width="25.3649" height="169.099"/>
+  <object id="329" name="flow" x="495.792" y="492.892" width="853.951" height="33.8199"/>
+  <object id="331" name="flow" x="749.441" y="492.892" width="25.3649" height="152.189"/>
+  <object id="332" name="flow" x="842.446" y="492.892" width="25.3649" height="152.189"/>
+  <object id="333" name="flow" x="935.45" y="492.892" width="25.3649" height="152.189"/>
+  <object id="335" name="flow" x="1020" y="492.892" width="25.3649" height="135.279"/>
+  <object id="336" name="flow" x="1087.64" y="492.892" width="25.3649" height="109.915"/>
+  <object id="337" name="flow" x="1662.58" y="475.982" width="67.6397" height="304.379"/>
+  <object id="345" name="rock" x="30.7693" y="712.721">
+   <polygon points="-25.3649,16.9099 481.933,16.9099 651.032,-50.7298 955.411,-50.7298 1361.25,-219.829 1631.81,-219.829 1631.81,67.6397 -25.3649,67.6397"/>
+  </object>
+  <object id="346" name="rock" x="1730.22" y="678.901" width="372.018" height="101.46"/>
+  <object id="363" name="bump" x="212.551" y="695.811">
+   <polygon points="0,0 12.6824,0 12.6824,16.9099 -12.6824,16.9099 -12.6824,0"/>
+  </object>
+ </objectgroup>
+ <layer id="10" name="x_deco" width="64" height="32" opacity="0.5">
+  <data encoding="base64" compression="zlib">
+   eJztwQENAAAAwqD3T20ON6AAAAAAAAAAgHcDIAAAAQ==
+  </data>
+ </layer>
+</map>

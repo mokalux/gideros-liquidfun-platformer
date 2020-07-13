@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.06.12" orientation="orthogonal" renderorder="right-down" width="256" height="256" tilewidth="32" tileheight="32" infinite="0" nextlayerid="16" nextobjectid="439">
+ <editorsettings>
+  <export target="t_level_a100_river_and_windmill.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="color_32.tsx"/>
+ <layer id="11" name="x_deco" width="256" height="256">
+  <data encoding="base64" compression="zlib">
+   eJzt2EFOw0AMBdDsirrh/rdFLCpVUTSxPZ42hfekSCCI/8fJsOi2AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMD/cn+6jr7PuBXyKiI5mbzRvErf1TvsyM52rPQ6yliZO7P36L2v6tM5YzTz7Ir63cvXdryfjvmRnEre0bxK39U7HIlmVztmemXerY7cmb1n713dp3NGZXY177GXxxU9S9m/Z5RTyTuaV+m7eocj0exqx0yv7Ls1mzuz9+y9q/t0zpjNyOQ972X/dSQvKpKTyRvNq/RdvcORaHa2Y6VXx/nvftaVru/o0zmjOj+btf+/mDn/GZGcTN5oXqXv6h12ZGc7VnrNnv1s7szeo/e+qk/njIh9/8pnPJndzHy2VXkXz352Nq+6j8o9M+c/m535vWqvmeff/awjeVfq0zkjM9/5d/67ejn/81af/w63wXXlnFf1/rQuz97V62r7uFqfv+D75OIzeG4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQ8wNpaBqy
+  </data>
+ </layer>
+ <layer id="10" name="x_level" width="256" height="256">
+  <data encoding="base64" compression="zlib">
+   eJzt2NtuhCAQAFDa1P//5b60qSECM6jVXc9JSDYut12dASzlz/JTIpaSq79ut6d9by7AnKXEY3IJfJ5tl8kLdV15AOZsxWCv7laczsZ/a9zIPCLXRnO6U86401x4jvq5i8Z/r59en5H4j8wjcq3Xfr13yLTL9J1x9LkIRur1fHb9LyUW/62xZuJ/z/uEzFjZepl90brO6CwzmnMkx0Jtb9yN+on0n81DdZus7Fh12+j30d++nlP9uVTXomew2RzHs2TXitYzd2T8R0T2Ib22dT9RkRiN1t+aS6SvSH17ACKOeiYy8T+6Fl3/13Uz+WPP2rh1dun1MzqnZGLYGYBX0YvH6H6/9by28kVm79DrL9K+tW/vjTXKGaM8mMkP4p+rzeyr62uRmBrtsWfHz7Sd2d9vjbtnjRf/PEFv33DFM97LO6NcFT3ntPqLfJfdHwHniL7nmHmX0Yr51llFToBrtd5FzL7LiNQX9/AexDEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMDxvlYFuI+PRjmS+Id7+o/4P8vnqrySPf/zq92jX3eY99VzuHr8LeK/lGVQjib+zzG6b1f/d1ePv+Ws+B/F1J3KO/2WJxf37T4FAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgHv6BmExC+E=
+  </data>
+ </layer>
+ <objectgroup color="#ff00ff" id="6" name="game_screen" visible="0">
+  <object id="251" x="544" y="1344">
+   <polygon points="0,0 416,0 416,-224 -416,-224 -416,224 416,224 416,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup id="15" name="fg">
+  <object id="432" x="1440" y="1496">
+   <polygon points="0,0 64,-8 128,0 128,8 0,8"/>
+  </object>
+  <object id="433" x="5056" y="1496">
+   <polygon points="0,0 32,-8 64,0 64,8 0,8"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="sensors" tintcolor="#000000">
+  <object id="340" name="exit" x="8160" y="992" width="32" height="544"/>
+  <object id="438" name="cam_pos" x="96" y="1472" width="192" height="192"/>
+ </objectgroup>
+ <objectgroup color="#00aaff" id="2" name="mg">
+  <object id="95" name="player" x="192" y="1408">
+   <polygon points="0,0 48,0 48,32 -48,32 -48,-32 48,-32 48,0"/>
+  </object>
+  <object id="7" name="ceiling01" x="0" y="928" width="8192" height="64"/>
+  <object id="8" name="wall01" x="-256" y="928" width="256" height="640"/>
+  <object id="11" name="wall01" x="8192" y="928" width="352" height="640"/>
+  <object id="261" name="nme01" x="4224" y="1376" width="112" height="88"/>
+  <object id="263" name="nme01" x="2272" y="1376" width="112" height="88"/>
+  <object id="264" name="nme01" x="2752" y="1376" width="112" height="88"/>
+  <object id="270" name="coin" x="1792" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="271" name="coin" x="1824" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="272" name="coin" x="1856" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="273" name="coin" x="1888" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="274" name="coin" x="1920" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="275" name="coin" x="1952" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="331" name="ground01" x="0" y="1536" width="1376" height="32"/>
+  <object id="333" name="ground02" x="1632" y="1536" width="3392" height="32"/>
+  <object id="335" name="ground01" x="5152" y="1536" width="3040" height="32"/>
+  <object id="336" name="npc01" x="848" y="1440">
+   <polygon points="0,0 48,0 48,32 -48,32 -48,-32 48,-32 48,0"/>
+  </object>
+  <object id="337" name="nme01" x="5248" y="1376" width="112" height="88"/>
+  <object id="338" name="nme01" x="6272" y="1376" width="112" height="88"/>
+  <object id="339" name="nme01" x="7520" y="1440" width="112" height="88"/>
+  <object id="342" name="coin" x="3584" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="343" name="coin" x="3552" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="344" name="coin" x="3616" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="345" name="coin" x="3648" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="346" name="coin" x="3680" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="347" name="coin" x="3712" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="348" name="coin" x="5728" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="349" name="coin" x="5760" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="350" name="coin" x="5792" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="351" name="coin" x="5824" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="352" name="coin" x="5856" y="1472">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="353" name="coin" x="5888" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="417" name="coin" x="1760" y="1504">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="420" name="ground03" x="1312" y="1536">
+   <polygon points="0,0 128,-32 256,-32 384,0"/>
+  </object>
+  <object id="421" name="ground03" x="4960" y="1536">
+   <polygon points="0,0 96,-32 160,-32 256,0"/>
+  </object>
+  <object id="434" name="mpf_h_r_6" x="385" y="1472" width="96" height="32"/>
+  <object id="435" name="mpf_v_u_4" x="0" y="1488" width="96" height="32"/>
+  <object id="436" name="mpf_h_l_6" x="352" y="1408" width="96" height="32"/>
+  <object id="437" name="mpf_v_d_4" x="0" y="1312" width="96" height="32"/>
+ </objectgroup>
+ <objectgroup color="#aaff00" id="4" name="bg">
+  <object id="325" name="tex01" x="-255.575" y="1376">
+   <polygon points="-0.425001,192.001 1631.57,192.001 1631.57,384 0,384"/>
+  </object>
+  <object id="355" name="tex01" x="1632" y="1568" width="3392" height="192"/>
+  <object id="356" name="river" x="1376" y="1568" width="256" height="192"/>
+  <object id="359" name="river" x="5024" y="1568" width="128" height="192"/>
+  <object id="360" name="tex01" x="5152" y="1568" width="3392" height="192"/>
+  <object id="361" name="tex02" x="384" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="362" name="tex03" x="319.639" y="1356.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="363" name="tex03" x="393.624" y="1297.21" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="364" name="tex03" x="304.842" y="1252.82" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="365" name="tex02" x="512" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="366" name="tex03" x="430.797" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="367" name="tex03" x="504.782" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="368" name="tex03" x="416" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="369" name="tex02" x="1280" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="370" name="tex03" x="1198.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="371" name="tex03" x="1272.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="372" name="tex03" x="1184" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="373" name="tex02" x="2176" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="374" name="tex03" x="2094.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="375" name="tex03" x="2168.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="376" name="tex03" x="2080" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="377" name="tex02" x="2656" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="378" name="tex03" x="2606.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="379" name="tex03" x="2680.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="380" name="tex03" x="2592" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="381" name="tex02" x="3104" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="382" name="tex03" x="3022.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="383" name="tex03" x="3096.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="384" name="tex03" x="3008" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="385" name="tex02" x="4064" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="386" name="tex03" x="4014.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="387" name="tex03" x="4088.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="388" name="tex03" x="4000" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="389" name="tex02" x="4416" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="390" name="tex03" x="4334.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="391" name="tex03" x="4408.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="392" name="tex03" x="4320" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="393" name="tex02" x="5216" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="394" name="tex03" x="5134.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="395" name="tex03" x="5208.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="396" name="tex03" x="5120" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="397" name="tex02" x="5344" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="398" name="tex03" x="5294.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="399" name="tex03" x="5368.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="400" name="tex03" x="5280" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="401" name="tex02" x="6080" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="402" name="tex03" x="6030.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="403" name="tex03" x="6104.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="404" name="tex03" x="6016" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="405" name="tex02" x="6592" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="406" name="tex03" x="6510.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="407" name="tex03" x="6584.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="408" name="tex03" x="6496" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="409" name="tex02" x="7264" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="410" name="tex03" x="7182.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="411" name="tex03" x="7256.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="412" name="tex03" x="7168" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="413" name="tex02" x="7776" y="1536">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="414" name="tex03" x="7726.8" y="1351.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="415" name="tex03" x="7800.78" y="1292.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="416" name="tex03" x="7712" y="1248" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="329" name="tex04" x="1760" y="1536">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="419" name="tex04" x="928" y="1536">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="423" name="tex04" x="2400" y="1536">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="425" name="tex04" x="3532.44" y="1536">
+   <polygon points="0,0 0,-153.6 99.5556,-256 199.111,-153.6 199.111,0 0,0"/>
+  </object>
+  <object id="427" name="tex04" x="4736" y="1552">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="429" name="tex04" x="5696" y="1552">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="431" name="tex04" x="6848" y="1552">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="330" name="windmill" x="1872" y="1360">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="357" name="windmill" x="1040" y="1360">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="422" name="windmill" x="2512" y="1360">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="424" name="windmill" x="3632" y="1379.56">
+   <polygon points="0,0 14.2222,0 14.2222,-14.2222 -14.2222,-14.2222 -14.2222,14.2222 14.2222,14.2222 14.2222,0"/>
+  </object>
+  <object id="426" name="windmill" x="4848" y="1376">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="428" name="windmill" x="5808" y="1376">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="430" name="windmill" x="6960" y="1376">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+ </objectgroup>
+</map>

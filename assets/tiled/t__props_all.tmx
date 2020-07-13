@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.06.25" orientation="orthogonal" renderorder="right-down" width="256" height="256" tilewidth="32" tileheight="32" infinite="0" nextlayerid="14" nextobjectid="645">
+ <editorsettings>
+  <export target="t_level01.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="color_32.tsx"/>
+ <layer id="11" name="x_deco" width="256" height="256" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1tB6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4AADwAAQ==
+  </data>
+ </layer>
+ <layer id="10" name="x_level" width="256" height="256">
+  <data encoding="base64" compression="zlib">
+   eJzt1TEKgEAMRcEoWuz9L2wbhIgLKVLMwCMn+CQCAAAAYKb1ukCPK1U5U12O1B+2D/069n9/VNnZv/8PAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHM8fQcAew==
+  </data>
+ </layer>
+ <layer id="12" name="x_sensors" width="256" height="256" visible="0">
+  <data encoding="base64" compression="zlib">
+   eJztwTEBAAAAwqD1T+1tB6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAN4AADwAAQ==
+  </data>
+ </layer>
+ <objectgroup color="#ff00ff" id="6" name="game_screen" visible="0">
+  <object id="251" x="544" y="480">
+   <polygon points="0,0 416,0 416,-224 -416,-224 -416,224 416,224 416,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#aaff00" id="4" name="deco" visible="0">
+  <object id="531" x="1344" y="128" width="616.832" height="274.147">
+   <ellipse/>
+  </object>
+  <object id="532" name="flow" x="2144" y="164.71" width="73.4274" height="293.711"/>
+  <object id="546" name="flow" x="2254.14" y="176.18" width="36.7137" height="282.236"/>
+  <object id="547" name="rock" x="2432" y="128">
+   <polygon points="0,0 -182.773,55.0706 -224.953,55.0706 -182.773,36.7137 -224.953,18.3569 -239.012,55.0706 -267.131,55.0706 -295.25,73.4274 -295.25,55.0706 -318.975,-6.88384 -147.625,0 0,-81.4586"/>
+  </object>
+  <object id="548" name="rock" x="63.7501" y="480">
+   <polygon points="-0.216789,64.0001 832.25,64.0001 832.25,128 0,128"/>
+  </object>
+  <object id="625" name="leaf" x="1064.4" y="148.2" width="141.424" height="121.22">
+   <ellipse/>
+  </object>
+  <object id="626" name="bark" x="152.78" y="377.14">
+   <polygon points="0,0 14.7971,-59.1882 14.7971,-118.376 44.3911,-118.376 59.1882,-59.1882 44.3911,0"/>
+  </object>
+  <object id="627" name="bark" x="632.56" y="352">
+   <polygon points="0,0 17.7099,-57.1597 0,-114.32 17.7099,-114.32 35.4198,-95.2662 35.4198,-57.1597 17.7099,0"/>
+  </object>
+  <object id="628" name="bark" x="1084.61" y="352">
+   <polygon points="0,0 0,-102.484 20.2034,-122.981 40.4067,-40.9937 20.2034,0"/>
+  </object>
+  <object id="629" name="leaf" x="1024" y="168.41" width="101.017" height="121.22">
+   <ellipse/>
+  </object>
+  <object id="630" name="leaf" x="1024" y="128" width="80.8134" height="80.8134">
+   <ellipse/>
+  </object>
+  <object id="631" name="leaf" x="632.56" y="166.84" width="123.97" height="106.26">
+   <ellipse/>
+  </object>
+  <object id="632" name="leaf" x="544" y="96" width="123.97" height="106.26">
+   <ellipse/>
+  </object>
+  <object id="633" name="leaf" x="597.13" y="113.71" width="123.97" height="106.26">
+   <ellipse/>
+  </object>
+  <object id="634" name="leaf" x="544" y="149.13" width="123.97" height="106.26">
+   <ellipse/>
+  </object>
+  <object id="635" name="leaf" x="78.8" y="199.58" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="636" name="leaf" x="152.78" y="140.39" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="637" name="leaf" x="64" y="96" width="118.376" height="103.579">
+   <ellipse/>
+  </object>
+  <object id="638" x="64" y="1072">
+   <polygon points="0,0 0,-172.8 112,-288 224,-172.8 224,0 0,0"/>
+  </object>
+  <object id="639" name="windmill" x="176" y="896">
+   <polygon points="0,0 16,0 16,-16 -16,-16 -16,16 16,16 16,0"/>
+  </object>
+  <object id="640" name="rock" x="1472" y="576" width="256" height="32"/>
+  <object id="641" name="river" x="1088" y="576" width="256" height="32"/>
+ </objectgroup>
+ <objectgroup color="#00aaff" id="2" name="level">
+  <object id="95" name="player" x="320" y="352">
+   <polygon points="0,0 48,0 48,32 -48,32 -48,-32 48,-32 48,0"/>
+  </object>
+  <object id="7" x="256" y="64" width="736" height="64"/>
+  <object id="8" name="wall_no" x="32" y="0" width="96" height="384"/>
+  <object id="263" name="nme01" x="672" y="288" width="112" height="88"/>
+  <object id="270" name="coin" x="960" y="352">
+   <polygon points="0,0 32,0 0,-32 -32,0 0,32 32,0"/>
+  </object>
+  <object id="336" name="npc01" x="512" y="352">
+   <polygon points="0,0 48,0 48,32 -48,32 -48,-32 48,-32 48,0"/>
+  </object>
+  <object id="420" x="1088" y="128">
+   <polygon points="0,0 128,-32 256,-32 384,0"/>
+  </object>
+ </objectgroup>
+ <objectgroup color="#ff0000" id="3" name="sensors" tintcolor="#000000">
+  <object id="248" x="128" y="32">
+   <polygon points="0,0 96,0 96,192 -96,192 -96,0"/>
+  </object>
+  <object id="642" name="exit" x="288" y="32" width="96" height="96"/>
+  <object id="643" name="secret1" x="576" y="96">
+   <polygon points="0,0 36,0 36,32 -36,32 -36,-32 36,-32 36,0"/>
+  </object>
+  <object id="644" name="secret2" x="736" y="96">
+   <polygon points="0,0 36,0 36,32 -36,32 -36,-32 36,-32 36,0"/>
+  </object>
+ </objectgroup>
+</map>
